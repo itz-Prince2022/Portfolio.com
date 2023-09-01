@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Edu+SA+Beginner:wght@700&family=Ysabeau+Infant:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="sayhello()">
+    <div id="main" name="m1">
+        <div class="nav">
+            <h1>Portfolio</h1>
+            <div class="nright">
+                <h4><a href="#cont1">Home</a></h4>
+                <!--<h4><a href="#">Store</a></h4>-->
+                <h4><a href="#">Projects</a></h4>
+                <h4><a href="#cont2">About Me</a></h4>
+                <h4><a href="#cont3">Contact Me</a></h4>
+            </div>
+        </div>
+        <div class="container1"  id="cont1">
+            <span id="bgimg">
+            <img src="img1.jpg" alt="image"></img>
+            </span>
+            <p><span class="doublequote">"</span>&nbsp;My name is <span id="name">Prince Patel</span> , I am pursuing B.tech in <span id="cse">Computer Science Engineering</span> from <span id="college">United College of Engineering and Research . I have a great interest in learning about new <span id="idea">technology's</span> which solves real world problems.<span class="doublequote">"</span></span></p>
+        </div>
+        
+        <div class="container2" id="cont2">
+            <div class="con2div1">
+                <h1>About Me</h1>
+                <p>I am 20 Years old , B.tech student at United college of Engineering and Research . As a computer science student, I really enjoy solving problem as well as making things pretty and easy to use. I can't stop learning new things; the more, the better. </p>
+            </div>
+            <div class="con2div2">
+                <h1>My Skills</h1>
+                <div class="con2div2div3">
+                <h4>Web Development (HTML,CSS,...comming soon)</h4>
+                <h4>C++ (Basic Knowledege)</h4>
+                </div>
+            </div>
+        </div>
+       
+        <div class="container3" id="cont3">
+            <div class="lastdiv">
+            <h1>Contact Me</h1>
+            <h5 class="head3">Get in touch with me -> princepatel.com.22@gmail.com</h5>
+            <div class="lastpage">
+                <h5>or find me on:</h5>
+                <div>
+                    <a href="https://www.linkedin.com/in/prince-patel-5633a3210/">Linkdin</a>
+                    <a href="https://github.com/itz-Prince2022">Github</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <footer>
+            <marquee behaviour="scroll" direction="left">
+                <h3>Developed by Prince Patel
+                    <span>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    </span>
+                All copyright reserved || 2023</h3>
+            </marquee>
+        </footer>
+        <div class="combox">
+            <h4>Comment Box</h4>
+            <form name="f1">
+                <input type="text" name="t1" />
+                <input type="submit" value="Comment" name="b1" onclick="clicke()"/>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
